@@ -102,3 +102,5 @@ class VGG11(nn.Module):
         if return_features:
             return bottleneck, features
         return bottleneck
+    
+VGG11Encoder = VGG11
